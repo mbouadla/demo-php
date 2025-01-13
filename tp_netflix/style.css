@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2c2b2b;
+}
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #000000;
+}
+.header-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.film-item{
+  width: 313px;
+    aspect-ratio: auto 313 / 476;
+    height: 476px;
+}
+.main-content {
+  padding: 20px;
+}
+.film-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.film-item {
+  text-align: center;
+  width: 200px;
+}
+.film-item img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.film-item h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
